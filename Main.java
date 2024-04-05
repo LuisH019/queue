@@ -23,8 +23,11 @@ public class Main {
         System.out.println("Método poll: " + kiwi.poll());
         System.out.println("Elementos do queue dps do poll: " + kiwi);
         System.out.println("--------------------------");
+        System.out.println("Método remove(): " + kiwi.remove());
+        System.out.println("Elementos do queue dps do remove: " + kiwi);
+        System.out.println("--------------------------");
         System.out.println("Método remove(\"DDDDD\"): " + kiwi.remove("DDDDD"));
-        System.out.println("Método remove(\"DDDDD\"): " + kiwi.remove("fffff"));
+        System.out.println("Método remove(\"fffff\"): " + kiwi.remove("fffff"));
         System.out.println("Elementos do queue dps do remove: " + kiwi);
 	}
 }
